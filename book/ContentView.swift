@@ -9,10 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView{
+            AlbumList()
+                .tabItem{
+                  Label("專輯",systemImage: "music.note.list")
+                }
+            opts()
+                .tabItem{
+                    Label("設定",systemImage:"hammer")
+                }
+        }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

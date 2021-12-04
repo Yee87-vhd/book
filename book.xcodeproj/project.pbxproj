@@ -11,6 +11,14 @@
 		C7B351A62729043200C0843B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B351A52729043200C0843B /* ContentView.swift */; };
 		C7B351A82729043400C0843B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B351A72729043400C0843B /* Assets.xcassets */; };
 		C7B351AB2729043400C0843B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B351AA2729043400C0843B /* Preview Assets.xcassets */; };
+		C7B94CD8275425A30077CC21 /* AlbumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B94CD7275425A30077CC21 /* AlbumList.swift */; };
+		C7B94CDE2755F46C0077CC21 /* SongList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B94CDD2755F46C0077CC21 /* SongList.swift */; };
+		C7B94CE027574D630077CC21 /* SongRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B94CDF27574D630077CC21 /* SongRow.swift */; };
+		C7B94CE527575FEC0077CC21 /* MyUglyHandwriting-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7B94CE427575FEC0077CC21 /* MyUglyHandwriting-Regular.otf */; };
+		C7B94CE72757634A0077CC21 /* opts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B94CE62757634A0077CC21 /* opts.swift */; };
+		C7FB414F275412A7009CB24F /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB414E275412A7009CB24F /* IntroView.swift */; };
+		C7FB4151275419A7009CB24F /* AlbumRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB4150275419A7009CB24F /* AlbumRow.swift */; };
+		C7FB41552754215F009CB24F /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FB41542754215F009CB24F /* Album.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		C7B351A52729043200C0843B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C7B351A72729043400C0843B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7B351AA2729043400C0843B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7B94CD7275425A30077CC21 /* AlbumList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumList.swift; sourceTree = "<group>"; };
+		C7B94CDD2755F46C0077CC21 /* SongList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongList.swift; sourceTree = "<group>"; };
+		C7B94CDF27574D630077CC21 /* SongRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongRow.swift; sourceTree = "<group>"; };
+		C7B94CE3275756910077CC21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C7B94CE427575FEC0077CC21 /* MyUglyHandwriting-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MyUglyHandwriting-Regular.otf"; sourceTree = "<group>"; };
+		C7B94CE62757634A0077CC21 /* opts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = opts.swift; sourceTree = "<group>"; };
+		C7FB414E275412A7009CB24F /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		C7FB4150275419A7009CB24F /* AlbumRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRow.swift; sourceTree = "<group>"; };
+		C7FB41542754215F009CB24F /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,17 @@
 		C7B351A22729043200C0843B /* book */ = {
 			isa = PBXGroup;
 			children = (
+				C7B94CE3275756910077CC21 /* Info.plist */,
+				C7B94CE427575FEC0077CC21 /* MyUglyHandwriting-Regular.otf */,
 				C7B351A32729043200C0843B /* bookApp.swift */,
 				C7B351A52729043200C0843B /* ContentView.swift */,
+				C7FB414E275412A7009CB24F /* IntroView.swift */,
+				C7FB41542754215F009CB24F /* Album.swift */,
+				C7FB4150275419A7009CB24F /* AlbumRow.swift */,
+				C7B94CD7275425A30077CC21 /* AlbumList.swift */,
+				C7B94CDF27574D630077CC21 /* SongRow.swift */,
+				C7B94CDD2755F46C0077CC21 /* SongList.swift */,
+				C7B94CE62757634A0077CC21 /* opts.swift */,
 				C7B351A72729043400C0843B /* Assets.xcassets */,
 				C7B351A92729043400C0843B /* Preview Content */,
 			);
@@ -126,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B351AB2729043400C0843B /* Preview Assets.xcassets in Resources */,
+				C7B94CE527575FEC0077CC21 /* MyUglyHandwriting-Regular.otf in Resources */,
 				C7B351A82729043400C0843B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7FB41552754215F009CB24F /* Album.swift in Sources */,
+				C7B94CE72757634A0077CC21 /* opts.swift in Sources */,
 				C7B351A62729043200C0843B /* ContentView.swift in Sources */,
+				C7B94CDE2755F46C0077CC21 /* SongList.swift in Sources */,
 				C7B351A42729043200C0843B /* bookApp.swift in Sources */,
+				C7B94CD8275425A30077CC21 /* AlbumList.swift in Sources */,
+				C7FB414F275412A7009CB24F /* IntroView.swift in Sources */,
+				C7B94CE027574D630077CC21 /* SongRow.swift in Sources */,
+				C7FB4151275419A7009CB24F /* AlbumRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +306,9 @@
 				DEVELOPMENT_TEAM = R8MGG25M4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = book/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -302,9 +336,9 @@
 				DEVELOPMENT_TEAM = R8MGG25M4L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = book/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
